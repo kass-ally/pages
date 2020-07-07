@@ -10,7 +10,7 @@ website using
 [Markdown](https://daringfireball.net/projects/markdown/) and
 [git](https://git-scm.com). -->
 
-For me, the painful aspects of making a website are
+For me, the painful aspects of making a website aren
 
 def print_hi(name)
   puts "Hi, #{name}"
