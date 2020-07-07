@@ -2,4 +2,5 @@
 layout: home
 ---
 
-[Click me][https://jekyllrb.com/docs/home]
+[Jekyll docs][jekyll-docs]
+[jekyll-docs]: https://jekyllrb.com/docs/home
