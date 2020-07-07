@@ -5,4 +5,8 @@ title: Home
 
 <!-- [My helpful screenshot](/assets/images/wallpaper.jpg) -->
 
-
+<article>
+	<h1 id="headline">Random Text Shuffle</h1>
+	<p id="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum dignissimos sint dolores necessitatibus repellendus in nemo expedita ullam numquam, placeat, laborum beatae, vero. Similique dolorem enim repellat impedit reiciendis, non.</p>
+	<button id="shuffler">shuffle</button>
+</article>
