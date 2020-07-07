@@ -2,7 +2,7 @@
 layout: home
 ---
 
-[Jekyll docs][jekyll-docs]
-[jekyll-docs]: https://jekyllrb.com/docs/home
+<h1>{{ "Hello World!" | downcase }}</h1>
+
 
 <!-- {% include footer.html %} -->
