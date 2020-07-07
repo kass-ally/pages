@@ -17,4 +17,5 @@ def print_hi(name)
 end
 print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT
-{%- include 404.html -%}
+{% if page.image.feature %}
+{% end %}
