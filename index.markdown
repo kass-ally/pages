@@ -12,5 +12,8 @@ website using
 
 For me, the painful aspects of making a website are
 
-
-
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
