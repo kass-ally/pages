@@ -5,10 +5,16 @@
   <head>
     <meta charset="utf-8">
     <title>Kassandra | {{ page.title }}</title>  <!--The tab name-->
+    <style>
+        body  {
+          background-image: url("/assets/images/wallpaper.jpg");
+          background-color: #cccccc;
+        }
+    </style>
   </head>
   <body >
     {% include header.html %} 
-    [My helpful screenshot](/assets/wallpaper.jpg)
+    [My helpful screenshot](/assets/screenshot.jpg)
     {{ content }} <!--from markdown file-->
 
     {% include footer.html %} 
