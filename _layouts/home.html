@@ -1,0 +1,16 @@
+<!--A "home" template, to be assigned in header with layout in md file-->
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Kassandra | {{ page.title }}</title>  <!--The tab name-->
+  </head>
+  <body>
+    {% include header.html %} 
+
+    {{ content }} <!--from markdown file-->
+
+    {% include footer.html %} 
+  </body>
+</html>
