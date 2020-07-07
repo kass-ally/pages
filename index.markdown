@@ -18,3 +18,4 @@ end
 print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT
 {% if page.image.feature %}
+{% end %}
