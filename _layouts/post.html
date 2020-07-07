@@ -1,11 +1,12 @@
-<!--A "default" template, to be assigned in header with layout in md file-->
+<!--A "post" template, to be assigned in header with layout in md file-->
 <!doctype html>
 <html>
   <head>
     <meta charset="utf-8">
-    <title>DEFAULT{{ page.title }}</title>  <!--The tab name-->
+    <title>POST{{ page.title }}</title>  <!--The tab name-->
   </head>
   <body>
+    Welcome to Blog!
     {{ content }} <!--from markdown file-->
   </body>
   {% include footer.html %} 
