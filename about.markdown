@@ -1,7 +1,7 @@
 ---
 layout: post
 title: One a mountain, over sea
-section: journey
+section: JOURNEY
 label: Travel
 Date: 8 Jul 2020
 permalink: /journey/8 Jul 2020
