@@ -1,4 +1,4 @@
-<!--A "post" template, to be assigned in header with layout in md file-->
+<!--The home "post" template, to be assigned in header with layout in md file-->
 <!doctype html>
 <html>
   <head>
@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/journey.css">
   </head>
   <body>
-    <div class="page-title">JOURNEY</div>
+    {% include header.html %} 
+
+    <div class="page-title">{{page.title}}</div>
 
     <main class="joun-home-container">
       <div class="joun-content">
@@ -16,7 +18,7 @@
                   <div class="column1" style="background-image:url(images/blog1.jpg);"></div>
               </div>
               <div class="column columnR">
-                <p class="joun-ov-title">One a mountain, over sea</p>
+                <p class="joun-ov-title">{{One a mountain, over sea}}</p>
                 <p class="joun-ov-date">8 Jul 2020</p>
                 <p> A short story is a piece of prose fiction that typically can be read in one sitting and focuses on a self-contained incident or series of linked incidents, with the intent of evoking a "single effect" or mood.<br>
                   The short story is a crafted form in its own ri...</p>
@@ -50,7 +52,6 @@
             </div>
       </div>
     </main>
-
   </body>
   <!-- {% include footer.html %}  -->
 </html>

@@ -1,10 +1,8 @@
 ---
 layout: post
-title: JOURNEY
+title: Journey
 permalink: journey
-description: journey homepage
+description: content of homepage of joruney
 ---
 
-  A short story is a piece of prose fiction that typically can be read in one sitting and focuses on a self-contained incident or series of linked incidents, with the intent of evoking a "single effect" or mood.<br><br>
-  The short story is a crafted form in its own right. Short stories make use of plot, resonance, and other dynamic components as in a novel, but typically to a lesser degree. While the short story is largely distinct from the novel or novella/short novel, authors generally draw from a common pool of literary techniques.
-  Short story writers may define their works as part of the artistic and personal expression of the form. <br> may also attempt to resist categorization by genre and fixed formation.
+xxoox
