@@ -234,4 +234,7 @@ function WordShuffler(holder,opt){
       pText.restart();
       buttonText.restart();
     });
-  
+   
+function WordShuffler(){
+    
+}

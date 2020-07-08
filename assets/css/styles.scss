@@ -1,6 +1,8 @@
 ---
 ---
 @import "main";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Suranna&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@100&family=Suranna&display=swap');
 
 h1 {
     color: white;
@@ -15,3 +17,65 @@ h1 {
     top: 50%;
     width: 100%;
 }
+
+// Header
+header{
+    font-size: 25px;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: #FAFAFA;
+    letter-spacing: 3px;
+    padding-top: 50px;
+  }
+  button{
+    cursor: pointer;
+  }
+  .mid{
+    display:inline-block;
+    cursor: pointer;
+  }
+  .site-header-button {
+    position: absolute;
+    height: 30px;
+    width: 31px;
+    padding: 8px 6px;
+    display: inline-block;
+    z-index: 60;
+    border: 0;
+    border-radius: 0;
+    background-color: transparent;
+    pointer-events: all;
+    right: 40px;
+  }
+  .site-header-button:hover > .button-bar--2{
+    transform: scaleX(1);
+  }
+  .site-header-button .button-bar {
+    position: absolute;
+    top: 50%;
+    right: 6px;
+    left: 6px;
+    height: 1px;
+    width: auto;
+    margin-top: -1px;
+    background-color: #fff;
+  }
+  .site-header-button .button-bar--1 {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+  .site-header-button .button-bar--2 {
+    -webkit-transform-origin: 100% 50%;
+    transform-origin: 100% 50%;
+    -webkit-transform: scaleX(.7);
+    transform: scaleX(.7);
+    transition:  transform .3s;
+  }
+  .site-header-button .button-bar--3 {
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px);
+  }
+//   End
