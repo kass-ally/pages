@@ -4,10 +4,32 @@
   <head>
     <meta charset="utf-8">
     <title>POST{{ page.title }}</title>  <!--The tab name-->
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/post.css">
   </head>
   <body>
-    Welcome to Blog!
-    {{ content }} <!--from markdown file-->
+    <!-- Welcome to Blog!
+    {{ content }} from markdown file -->
+    <div class="title-container">JOURNEY | Travel</div>
+
+
+  <main>
+    <div class="content">
+      <section>
+        <p class="jorn-date">Jul 8 2020</p>
+        <p class="jorn-title">One a mountain, over sea</p>
+        <img src="images/blog1.jpg" class="journ-pic">
+      </section>
+      <section>
+        <p>
+          A short story is a piece of prose fiction that typically can be read in one sitting and focuses on a self-contained incident or series of linked incidents, with the intent of evoking a "single effect" or mood.<br>
+  The short story is a crafted form in its own right. Short stories make use of plot, resonance, and other dynamic components as in a novel, but typically to a lesser degree. While the short story is largely distinct from the novel or novella/short novel, authors generally draw from a common pool of literary techniques.
+  Short story writers may define their works as part of the artistic and personal expression of the form. <br> may also attempt to resist categorization by genre and fixed formation.
+  Short stories have deep roots and the power of short fiction has been recognized in modern society for hundreds of years.
+        </p>
+      </section>
+    </div>
+  </main>
+
   </body>
   {% include footer.html %} 
 </html>

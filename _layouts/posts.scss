@@ -1,0 +1,44 @@
+/* title */
+@import "main";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Suranna&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@100&family=Suranna&display=swap');
+
+main{
+    top: 180px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+  }
+  section{
+    color:black;
+  }
+  .content{
+    padding: 50px 100px 50px 100px;
+  }
+  .title-container{
+    top:180px;
+    font-family: 'Montserrat', sans-serif;
+    left: 50px;
+    color: #757575;
+    position:absolute;
+  }
+  .journ-pic{
+    width:100%;
+  }
+  p{
+    font-family: 'Montserrat', sans-serif;
+  }
+  .jorn-date, .jorn-title{
+    text-align: center;
+    margin:0;
+    color: #000000;
+  }
+  .jorn-date{
+   font-size:15px;
+  }
+  .jorn-title{
+    font-size:30px;
+    margin:25px;
+    margin-top:0;
+  }
+  
