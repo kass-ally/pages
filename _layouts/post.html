@@ -7,25 +7,21 @@
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/post.css">
   </head>
   <body>
-    <!-- Welcome to Blog!
-    {{ content }} from markdown file -->
     <div class="title-container">{{ page.title }} | {{page.label}}</div>
-
-
-  <main>
-    <div class="content">
-      <section>
-        <p class="jorn-date">{{page.date}}</p>
-        <p class="jorn-title">{{page.title}}</p>
-        <img src="/assets/images/wallpaper.jpg" class="journ-pic">
-      </section>
-      <section>
-        <p>
-        {{content}}
-        </p>
-      </section>
-    </div>
-  </main>
+    <main>
+      <div class="content">
+        <section>
+          <p class="jorn-date">{{page.date}}</p>
+          <p class="jorn-title">{{page.title}}</p>
+          <img src="../assets/images/wallpaper.jpg" class="journ-pic">
+        </section>
+        <section>
+          <p>
+          {{content}}
+          </p>
+        </section>
+      </div>
+    </main>
 
   </body>
   <!-- {% include footer.html %}  -->
