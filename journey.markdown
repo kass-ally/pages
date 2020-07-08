@@ -5,4 +5,4 @@ permalink: journey
 description: content of homepage of joruney
 ---
 
-xxoox
+[Some Link]({% post_url 2020-07-07-test1 %})
