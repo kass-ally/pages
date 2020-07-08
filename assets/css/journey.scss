@@ -5,45 +5,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@100&family=Suranna&display=swap');
 
 *{
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
+main{
+  top: 180px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
 .joun-home-container{
-  top:250px;
-  }
+top:250px;
+}
 .column {
-  float: left;
-  width: 50%;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+float: left;
+width: 50%;
+padding: 10px;
+height: 300px; /* Should be removed. Only for demonstration */
 }
 .columnL{
-  padding-left: 80px;
+padding-left: 80px;
 }
 .column1{
-  background-size: cover;
-  height:100%
+background-size: cover;
+height:100%
 }
 .columnR{
-  padding-right: 80px;
+padding-right: 80px;
 }
 .row:after {
-  content: "";
-  display: table;
-  clear: both;
+content: "";
+display: table;
+clear: both;
 }
 .page-title{
-  width:100%;
-  top:160px;
-  font-family: 'Montserrat', sans-serif;
-  color: #757575;
-  position:absolute;
-  text-align:center;
-  font-size:30px;
+width:100%;
+top:160px;
+font-family: 'Montserrat', sans-serif;
+color: #757575;
+position:absolute;
+text-align:center;
+font-size:30px;
 }
 .joun-ov-title{
-  font-size:25px;
-  margin-bottom:0;
+font-size:25px;
+margin-bottom:0;
 }
 .joun-ov-date{
-  font-size:15px;
+font-size:15px;
 }
