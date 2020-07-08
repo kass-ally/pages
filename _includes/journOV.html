@@ -2,9 +2,9 @@
 <div class="joun-content">
   <div class="row">
       <div class="column columnL">
-        <!-- <div class="column1" style="background-image:url(assets/images/65.jpg);">{{post.image}}</div> -->
-        <!-- <div class="column1">{{post.image}}</div> -->
-        {{post.image}}
+        <!-- <div class="column1" style="background-image:url(assets/images/65.jpg);"></div> -->
+        <!-- {{post.image}} -->
+        <img src="{{ site.baseurl }}/imagens/{{ post.image }}">
       </div>
       <div class="column columnR">
         <p class="joun-ov-title"> {{post.title}}</p>
