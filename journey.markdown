@@ -1,7 +1,7 @@
 ---
 layout: post
 title: JOURNEY
-permalink: /journey
+permalink: journey
 description: journey homepage
 ---
 
