@@ -1,10 +1,8 @@
 ---
 layout: post
-title: One a mountain, over sea
-section: JOURNEY
-label: Travel
-date: 8 Jul 2020
-permalink: /journey/8-Jul-2020
+title: JOURNEY
+permalink: /journey
+description: journey homepage
 ---
 
   A short story is a piece of prose fiction that typically can be read in one sitting and focuses on a self-contained incident or series of linked incidents, with the intent of evoking a "single effect" or mood.<br><br>
