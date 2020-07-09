@@ -7,16 +7,16 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
     padding:50px;
-  }
-  .photo-container div {
+}
+.photo-container div {
     // background-image: url(../images/65.jpg);
     background-size: cover;
     background-position: center ;
-  }
-  
-  .photo-container div::before {
-    content: "";
+}
+
+.photo-container div::before {
+content: "";
     padding-bottom: 100%;
     display: inline-block;
     vertical-align: top;
-  }
+}
