@@ -1,7 +1,7 @@
 ---
 layout: journey-home
 title: Journey
-permalink: journey
+permalink: journeys
 description: content of homepage of joruney
 ---
 
