@@ -1,3 +1,12 @@
+---
+---
+@import "main";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Suranna&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@100&family=Suranna&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
 footer {
     clear: both;
     position: absolute;
@@ -5,15 +14,14 @@ footer {
     left: 0;
     width: 100%;
   }
-  .left{
+.left{
     text-align:left;
     float:left;
-    }
-    .right{
+}
+.right{
     float:right;
     text-align:right;
-    }
-    .centered{
+}
+.centered{
     text-align:center;
-    }
-  
+}
