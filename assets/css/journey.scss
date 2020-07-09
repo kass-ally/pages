@@ -16,45 +16,36 @@ p {
   font-weight:300;
 }
 .joun-home-container{
-top:250px;
+  top:250px;
 }
 .column {
-float: left;
-width: 50%;
-padding: 10px;
-height: 300px; /* Should be removed. Only for demonstration */
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
 }
 .columnL{
-padding-left: 15%;
+  padding-left: 15%;
 }
 .column1{
-background-size: cover;
-height:100%
+  background-size: cover;
+  height:100%
 }
 .columnR{
-padding-right: 15%;
+  padding: 50px 15% 50px 20px;
 }
 .row:after {
-content: "";
-display: table;
-clear: both;
-}
-.page-title{
-width:100%;
-top:160px;
-font-family: 'Montserrat', sans-serif;
-color: #757575;
-position:absolute;
-text-align:center;
-font-size:30px;
-left:0;
+  content: "";
+  display: table;
+  clear: both;
 }
 .joun-ov-title{
-font-size:25px;
-margin-bottom:0;
-font-family: 'Roboto', sans-serif;
-font-weight: 300;
+  font-size:25px;
+  margin-bottom:0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color:black;
 }
 .joun-ov-date{
-font-size:15px;
+  font-size:15px;
 }

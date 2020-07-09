@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Welcome to Jekyll!
-date:   7 Jul 2020
+datec:   7 Jul 2020
 permalink: journey/7-Jul-2020
 label: Travel
 image: 65.jpg
