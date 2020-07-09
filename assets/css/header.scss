@@ -378,7 +378,7 @@ a{
 }
 
 .crossRoatate1 {
-  animation: crossRoatate1 1.2s ease-in-out;
+  animation: crossRoatate1 .9s ease-in-out;
   animation-fill-mode: forwards; 
 }
 @keyframes crossRoatate1 {
@@ -386,7 +386,7 @@ a{
   to {transform: rotate(45deg);}
 }
 .crossRoatate2{
-  animation: crossRoatate2 1.2s ease-in-out;
+  animation: crossRoatate2 .9s ease-in-out;
   animation-fill-mode: forwards; 
 }
 @keyframes crossRoatate2 {
