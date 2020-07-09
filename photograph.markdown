@@ -4,5 +4,3 @@ title: Photograph
 permalink: photographs
 description: content of homepage of photograph
 ---
-
-kkk
