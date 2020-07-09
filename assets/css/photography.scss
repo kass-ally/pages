@@ -1,0 +1,27 @@
+---
+---
+@import "main";
+
+.threecolumn {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  .photograph-container{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    padding: 0 3% 0 3%;
+    top: 250px;
+  }
+  .layer{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .photograph:hover > .layer{
+    background-color: rgba(0, 0, 0, 0.250);
+    transition:  background-color .4s;
+  }

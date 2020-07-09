@@ -1,0 +1,25 @@
+<!--A "post" template, to be assigned in header with layout in md file-->
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>  <!--The tab name-->
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/photography.css">
+  </head>
+  <body>
+    {% include header.html %} 
+    <div class="page-title" style="text-transform: uppercase;">{{page.title}}</div>
+    <main class="photograph-container">
+
+        <div class="row">
+        {% for photo in site.photographs %}
+          <div class="threecolumn" >
+            <div class="column1 photograph" style="background-image:url(assets/images/{{ photo.image }});"><div class="layer"></div></div>
+          </div> 
+          {% endfor %}
+        </div>
+      </main>
+
+  </body>
+  {% include footer.html %} 
+</html>
