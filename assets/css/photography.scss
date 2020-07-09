@@ -2,6 +2,9 @@
 ---
 @import "main";
 
+*{
+    box-sizing: border-box;
+}
 .page-title{
     width:100%;
     top:160px;
