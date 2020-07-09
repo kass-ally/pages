@@ -1,6 +1,6 @@
 ---
 layout: journey
-title: One a mountain, over sea
+title: photo1
 section: JOURNEY
 label: Travel
 datec: 8 Jul 2020
