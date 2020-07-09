@@ -33,7 +33,7 @@ window.addEventListener("scroll", function(){
 
 // When btn is clicked, crossed is formed by lines
 btn.addEventListener("click", function(){
-    console.log("clicked");
+    console.log("Cclicked");
     var fullNav = document.getElementById("fullNav");
     var body = document.body;
     var main = document.querySelectorAll("main");
