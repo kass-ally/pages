@@ -1,7 +1,13 @@
 ---
 ---
 @import "main";
-
+*{
+    box-sizing: border-box;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight:300;
+}
 footer {
     clear: both;
     position: absolute;
