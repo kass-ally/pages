@@ -5,6 +5,9 @@ a{
   text-decoration: none;
   color: #4f4f4f;
 }
+.noOf{
+  overflow-y: hidden;
+}
 header{
   font-size: 35px;
   left: 0;
@@ -248,7 +251,7 @@ button{
 }
 .dm-no{
   font-family: 'Playfair Display', serif;
-  color:rgb(139, 139, 139);
+  color:rgb(0, 0, 0);
   font-size:20px; 
   letter-spacing:0;
   margin:15px;
@@ -303,6 +306,7 @@ a{
 }
 .dmbtn:hover{
   font-size: 24px;
+  color: white;
 }
 .dm-btn1{ top:165px; }
 .dm-btn2{ top:200px; }
