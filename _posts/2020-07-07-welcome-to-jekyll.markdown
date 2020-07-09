@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: journey
 title:  Welcome to Jekyll!
 datec:   7 Jul 2020
 permalink: journey/7-Jul-2020
