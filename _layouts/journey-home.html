@@ -17,12 +17,12 @@
       <div class="joun-content">
         <div class="row">
             <div class="column columnL">
-              <div class="column1" style="background-image:url(assets/images/{{ post.image }});"></div>
+              <a href= "{{site.baseurl}}/{{post.permalink}}" class="column1" style="background-image:url(assets/images/{{ post.image }});"></a>
               <!-- {{post.image}} -->
               <!-- <img src="assets/images/{{ post.image }}"> -->
             </div>
             <div class="column columnR">
-              <p class="joun-ov-title"> {{post.title}}</p>
+              <a href= "{{site.baseurl}}/{{post.permalink}}" class="joun-ov-title"> {{post.title}}</a>
               <p class="joun-ov-date"> {{post.datec}} </p>
               <p> {{post.summary}}</p>
             </div>

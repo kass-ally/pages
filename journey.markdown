@@ -1,6 +1,6 @@
 ---
 layout: journey-home
-title: Journey
+title: Journeys
 permalink: journeys
 description: content of homepage of joruney
 ---

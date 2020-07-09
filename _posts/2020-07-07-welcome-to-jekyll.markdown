@@ -1,8 +1,11 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2020-07-07 08:10:01 +0100
-categories: jekyll update
+title:  Welcome to Jekyll!
+date:   7 Jul 2020
+permalink: journey/7-Jul-2020
+label: Travel
+image: 65.jpg
+summary: A short story is a piece of prose fiction that typically can be read in one sitting and focuses on a self-contained incident or series of linked incidents, with the intent of evoking a "single effect" or 
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
