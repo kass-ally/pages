@@ -8,20 +8,10 @@
   </head>
   <body>
     {% include header.html %} 
+   
     <div id="pageTitle" class="page-title" style="text-transform: uppercase;">{{page.title}}</div>
     <main class="photograph-container">
-
         <div class="row">
-        <!-- {% for photo in site.photographs %}
-          <div class="threecolumn" >
-            <div class="column1 photograph" style="background-image:url(assets/images/{{ photo.image }});"><div class="layer"></div></div>
-          </div> 
-          {% endfor %} -->
-          <!-- {% for image in site.static_files %}
-            {% if image.path contains 'images/slider' %}
-              <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
-            {% endif %}
-          {% endfor %} -->
           <div class="photo-container">
             {% for photo in site.photographs %}
               <div style="background-image:url(assets/images/{{ photo.image }});"></div>
@@ -32,5 +22,4 @@
 
   </body>
   {% include footer.html %} 
-  <!-- <script src="{{site.baseurl}}/assets/js/header.js"></script> -->
 </html>
