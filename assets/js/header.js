@@ -56,9 +56,13 @@ btn.addEventListener("click", function(){
     if(fullNav.classList.contains("greyBg")){
         fullNav.classList.add("nogreyBg");
         fullNav.classList.remove("greyBg");
+        setTimeout(function() {
+            fullNav.style.display = "none";
+        }, 1000);
     }else{
         fullNav.classList.remove("nogreyBg");
         fullNav.classList.add("greyBg");
+        fullNav.style.display = "block";
     }
     if( btn1.classList.contains("crossRoatate1")){
         btn1.classList.add("flatRoatate1");
