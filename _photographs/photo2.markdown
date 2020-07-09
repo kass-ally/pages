@@ -1,5 +1,5 @@
 ---
-layout: journey
+layout: photograph-home
 title: photo2
 section: JOURNEY
 label: Travel
