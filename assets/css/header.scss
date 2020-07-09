@@ -18,6 +18,7 @@ header{
   color: #000000;
   letter-spacing: 5px;
   padding-top: 20px;
+  z-index: 9;
 }
 button{
   cursor: pointer;
@@ -47,14 +48,14 @@ button{
   float:right;
   line-height: 35px;
   padding-right: 11px;
-  padding-bottom: 100px;
+  padding-bottom: 15px;
   padding-left: 50px;
 }
 .drop-down-R{
   float:left;
   line-height: 35px;
   padding-left: 2px;
-  padding-bottom: 100px;
+  padding-bottom: 15px;
   padding-right: 50px;
 }
 .dd-content-L{
