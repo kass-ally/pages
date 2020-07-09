@@ -1,6 +1,6 @@
 ---
 layout: photograph-home
-title: Photograph
+title: Photographs
 permalink: photographs
 description: content of homepage of photograph
 ---
