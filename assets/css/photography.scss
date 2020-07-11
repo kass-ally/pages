@@ -26,10 +26,11 @@
     width: 100%;
     height: 100%;
   }
-  .photograph:hover > .layer{
+.photograph:hover > .layer{
     background-color: rgba(0, 0, 0, 0.250);
     transition:  background-color .4s;
-  }
+    cursor: zoom-in;
+}
 .photoShow{
     animation: photoShow .8s ease-in;
     animation-fill-mode: forwards; 
