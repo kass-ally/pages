@@ -17,19 +17,19 @@
               <div class="hidden photograph" style="background-image:url(assets/images/{{ photo.image }});">
                 <div class="layer"></div>
               </div>
+              <div class="larged-photo">
+                <div class="enlarged" style="background-image:url(assets/images/{{ photo.image }});"></div>
+                <div class="photo-desc">
+                  <p>On a mountain, over the sea.</p>
+                  <p>Label: Landscape</p>
+                  <p>Taken with iPhone, on 20 Jul 2020</p>
+                  <p>Taken when I was solo camping/hiking in the Lake district.</p>
+                </div>
+              </div>
             {% endfor %}
           </div>
         </div>
       </main>
-      <div class="larged-photo">
-        <div class="enlarged" style="background-image:url(assets/images/{{ photo.image }});"></div>
-        <div class="photo-desc">
-          <p>On a mountain, over the sea.</p>
-          <p>Label: Landscape</p>
-          <p>Taken with iPhone, on 20 Jul 2020</p>
-          <p>Taken when I was solo camping/hiking in the Lake district.</p>
-        </div>
-      </div>
 
   </body>
   {% include footer.html %} 
