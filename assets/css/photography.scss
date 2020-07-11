@@ -41,11 +41,23 @@
     to {transform: scale(1); opacity:1;}
 }
 // Enlarge photo
+.enlarge{
+    text-align: center;
+    position: fixed;
+    top: 0;
+    z-index: 9;
+    background-color: #ffffffc4;
+    height: 100%;
+    overflow:scroll;
+}
 .enlargedImg{
     width:70%;
     margin-top:5vh;
 }
-    .enlargedDes{
+.enlargedDes{
     margin:100px;
     margin-top:0;
+}
+.noOf{
+    overflow:hidden;
 }

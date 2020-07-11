@@ -8,12 +8,16 @@ window.addEventListener("load", function(){
 })
 
 window.addEventListener("click", function(event){
-    var imgurl = event.target.parentElement.style.backgroundImage.slice(4, -1).replace(/"/g, "");
-    var enlargeCont = document.getElementById("enlarge");
-    var enlargedPhoto = document.getElementById("enlargedPhoto");
-    var img = document.createElement("img");
-    img.src = imgurl;
-    enlargedPhoto.appendChild(img);
-    enlargedPhoto.childNodes[0].classList.add("enlargedImg")
-    enlargeCont.classList.remove("hidden");
+    if(event.target.classList.contains("layer"){
+        var body = document.body;
+        var imgurl = event.target.parentElement.style.backgroundImage.slice(4, -1).replace(/"/g, "");
+        var enlargeCont = document.getElementById("enlarge");
+        var enlargedPhoto = document.getElementById("enlargedPhoto");
+        var img = document.createElement("img");
+        body.classList.toggle("noOf");
+        img.src = imgurl;
+        enlargedPhoto.appendChild(img);
+        enlargedPhoto.childNodes[0].classList.add("enlargedImg")
+        enlargeCont.classList.toggle("hidden");
+    }
 })
