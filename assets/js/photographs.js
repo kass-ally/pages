@@ -7,38 +7,13 @@ window.addEventListener("load", function(){
     }
 })
 
-function enlargePhoto(event){
-    console.log(event);
-    var enlargeEle = document.getElementById("enlarge");
-    var photocontainer = document.querySelectorAll("main");
-    enlargeEle.classList.remove("hidden");
-    photocontainer[0].classList.toggle("photo-container");
-    document.addEventListener('click', function (event) {
-        if (!event.target.closest('.enlarged-ph')){
-            console.log("clickeddd")
-        };
-    
-    }, false);
-}
-
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-  }
-  slides[slideIndex-1].style.display = "block";  
-}
+window.addEventListener("click", function(event){
+    var imgurl = event.target.parentElement.style.backgroundImage.slice(4, -1).replace(/"/g, "");
+    var enlargeCont = document.getElementById("enlarge");
+    var enlargedPhoto = document.getElementById("enlargedPhoto");
+    var img = document.createElement("img");
+    img.src = imgurl;
+    enlargedPhoto.appendChild(img);
+    enlargedPhoto.childNodes[0].classList.add("enlargedImg")
+    enlargeCont.classList.remove("hidden");
+})

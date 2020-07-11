@@ -28,7 +28,7 @@
     position:absolute;
   }
 .photograph:hover > .layer{
-    background-color: rgba(0, 0, 0, 0.24);
+    background-color: rgba(0, 0, 0, 0.13);
     transition:  background-color .4s;
     cursor: zoom-in;
 }
@@ -41,64 +41,11 @@
     to {transform: scale(1); opacity:1;}
 }
 // Enlarge photo
-.enlarge{
-    height:100vh;
-    width:100vw;
-    position: fixed;
-    z-index:9;
-    top:0;
-    overflow:scroll;
-    left:0;
-    background-color: #ffffffd1;
-  }
-  .mySlides {display: none}
-  
-  /* Slideshow container */
-  .slideshow-container {
-      max-width: 1000px;
-      text-align: center;
-      max-width: 1000px;
-      position: relative;
-      margin: auto;
-      margin-top:100px;
-  }
-  .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    color: rgb(109, 109, 109);
-    font-size: 18px;
-    transition: 0.6s ease;
-    user-select: none;
-    left:3%;
-  }
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-    left:96%;
-  }
-  .prev:hover, .next:hover {
-      color: rgb(29, 29, 29);
-  }
-  .text {
-    color: #000000;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    width: 100%;
-    text-align: center;
-  }
-  .fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  @-webkit-keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
-  @keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
+.enlargedImg{
+    width:70%;
+    margin-top:5vh;
+}
+    .enlargedDes{
+    margin:100px;
+    margin-top:0;
+}

@@ -15,24 +15,17 @@
           <div onclick="enlargePhoto(event)" class="hidden photograph" style="background-image:url(assets/images/{{ photo.image }});">
             <div class="layer"></div>
           </div>
-          <div id="enlarge" class="enlarge hidden" style="text-align:center; content:normal;">
-            <div class="slideshow-container">
-                <div class="mySlides fade">
-                    <img class="enlarged-ph" src="assets/images/{{ photo.image }}" style="width:80%">
-                    <div class="des" style="position:absolute">
-                        <p>On a mountain, over the sea.</p>
-                        <p>Label: Landscape</p>
-                        <p>Taken with iPhone, on 20 Jul 2020</p>
-                        <p>Taken when I was solo camping/hiking in the Lake district.aken when I was solo camping/hiking in the Lake district.aken when I was solo camping/hiking in the Lake district.aken when I was solo camping/hiking in the Lake district.aken when I was solo camping/hiking in the Lake district.aken when I was solo camping/hiking in the Lake district.aken when I was solo camping/hiking in the Lake district.</p>
-                    </div>
-                </div>
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            </div>
-          </div>
         {% endfor %}
     </main>
-
+    <div id="enlarge" class="enlarge hidden" style="text-align:center; content:normal;">
+      <div id="enlargedPhoto"></div>
+      <div class="enlargedDes" style="position:absolute">
+          <p>On a mountain, over the sea.</p>
+          <p>Label: Landscape</p>
+          <p>Taken with iPhone, on 20 Jul 2020</p>
+          <p>Taken when I was solo camping/hiking in the Lake district.aken when I was solo camping/hiking in the Lake district.aken when I was solo camping/hiking in the Lake district.aken when I was solo camping/hiking in the Lake district.aken when I was solo camping/hiking in the Lake district.aken when I was solo camping/hiking in the Lake district.aken when I was solo camping/hiking in the Lake district.</p>
+      </div>
+    </div>
   </body>
   {% include footer.html %} 
   <script src="{{site.baseurl}}/assets/js/photographs.js"></script>
