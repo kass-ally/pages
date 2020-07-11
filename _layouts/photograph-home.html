@@ -11,14 +11,12 @@
    
     <div id="pageTitle" class="page-title" style="text-transform: uppercase;">{{page.title}}</div>
     <main class="photograph-container">
-          {% for photo in site.photographs %}
-          <div class="photo-container">
-              <div onclick="enlargePhoto(event)" class="hidden photograph" style="background-image:url(assets/images/{{ photo.image }});">
-                <div class="layer"></div>
-              </div>
-
+      <div class="photo-container">
+        {% for photo in site.photographs %}
+          <div onclick="enlargePhoto(event)" class="hidden photograph" style="background-image:url(assets/images/{{ photo.image }});">
+            <div class="layer"></div>
           </div>
-          <div id="enlarge" class="enlarge hidden" style="text-align:center">
+          <div id="enlarge" class="enlarge hidden" style="text-align:center; content:normal;">
             <div class="slideshow-container">
                 <div class="mySlides fade">
                     <img src="url(assets/images/{{ photo.image }})" style="width:80%">
@@ -33,8 +31,9 @@
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
             </div>
           </div>
-          {% endfor %}
-      </main>
+        {% endfor %}
+      </div>
+    </main>
 
   </body>
   {% include footer.html %} 
