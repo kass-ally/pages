@@ -8,12 +8,12 @@ window.addEventListener("load", function(){
 })
 
 window.addEventListener("click", function(event){
+    var body = document.body;
+    var enlargeCont = document.getElementById("enlarge");
+    var enlargedPhoto = document.getElementById("enlargedPhoto");
+    var img = document.createElement("img");
     if(event.target.classList.contains("layer")){
-        var body = document.body;
         var imgurl = event.target.parentElement.style.backgroundImage.slice(4, -1).replace(/"/g, "");
-        var enlargeCont = document.getElementById("enlarge");
-        var enlargedPhoto = document.getElementById("enlargedPhoto");
-        var img = document.createElement("img");
         img.src = imgurl;
         body.classList.add("noOf");
         enlargedPhoto.appendChild(img);
