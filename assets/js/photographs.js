@@ -8,7 +8,7 @@ window.addEventListener("load", function(){
 })
 
 window.addEventListener("click", function(event){
-    if(event.target.classList.contains("layer")){
+    // if(event.target.classList.contains("layer")){
         var body = document.body;
         var imgurl = event.target.parentElement.style.backgroundImage.slice(4, -1).replace(/"/g, "");
         var enlargeCont = document.getElementById("enlarge");
@@ -18,10 +18,11 @@ window.addEventListener("click", function(event){
         if(!enlargeCont.classList.contains("hidden")){
             if (!event.target.closest('.enlargedImg')){
                 enlargeCont.classList.add("hidden");
-                enlargedPhoto.appendChild(img);
+                enlargedPhoto.removeChild(img);
                 body.classList.remove("noOf");
                 enlargeCont.classList.remove("largephfadeIn");
                 enlargeCont.classList.add("largephfadeOut");
+                console.log("remove");
             } 
         }else{
             body.classList.add("noOf");
@@ -31,5 +32,5 @@ window.addEventListener("click", function(event){
             enlargeCont.classList.add("largephfadeIn");
             enlargeCont.classList.remove("largephfadeOut");
         }
-    }
+    // }
 })
