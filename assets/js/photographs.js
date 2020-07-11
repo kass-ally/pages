@@ -8,7 +8,7 @@ window.addEventListener("load", function(){
 })
 
 window.addEventListener("click", function(event){
-    if(event.target.classList.contains("layer"){
+    if(event.target.classList.contains("layer")){
         var body = document.body;
         var imgurl = event.target.parentElement.style.backgroundImage.slice(4, -1).replace(/"/g, "");
         var enlargeCont = document.getElementById("enlarge");
