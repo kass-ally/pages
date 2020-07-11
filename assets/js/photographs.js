@@ -9,9 +9,15 @@ window.addEventListener("load", function(){
 
 function enlargePhoto(event){
     var enlargeEle = document.getElementById("enlarge");
-    var photocontainer = document.getAttribute("main");
+    var photocontainer = document.querySelectorAll("main");
     enlargeEle.classList.remove("hidden");
     photocontainer[0].classList.toggle("photo-container");
+    document.addEventListener('click', function (event) {
+        if (!event.target.closest('.enlarged-ph')){
+            console.log("clickeddd")
+        };
+    
+    }, false);
 }
 
 var slideIndex = 1;
