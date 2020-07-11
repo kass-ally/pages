@@ -20,6 +20,16 @@
     display: inline-block;
     vertical-align: top;
 }
+.layer{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .photograph:hover > .layer{
+    background-color: rgba(0, 0, 0, 0.250);
+    transition:  background-color .4s;
+  }
 .photoShow{
     animation: photoShow .8s ease-in;
     animation-fill-mode: forwards; 
