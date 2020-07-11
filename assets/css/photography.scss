@@ -28,7 +28,7 @@
     position:absolute;
   }
 .photograph:hover > .layer{
-    background-color: rgba(0, 0, 0, 0.250);
+    background-color: rgba(0, 0, 0, 0.404);
     transition:  background-color .4s;
     cursor: zoom-in;
 }
@@ -39,4 +39,27 @@
 @keyframes photoShow {
     from {transform: scale(.8); opacity:0;}
     to {transform: scale(1); opacity:1;}
+}
+// Enlarge photo
+.large-photo{
+    height:100vh;
+    width:100vw;
+    position: fixed;
+    z-index:1;
+    top:0;
+    overflow:scroll;
+    background-color: rgba(255, 255, 255, 0.801);
+}
+.largeOp{
+    animation: largeOp .5s ease-in;
+    animation-fill-mode: forwards;
+    }
+@keyframes largeOp {
+    from { opacity:0  }
+    to { opacity:1  }
+}
+.enlarged{
+    position: absolute;
+    width:100%;
+    z-index:9;
 }
