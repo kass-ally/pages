@@ -8,6 +8,7 @@ window.addEventListener("load", function(){
 })
 
 function enlargePhoto(event){
+    console.log(event);
     var enlargeEle = document.getElementById("enlarge");
     var photocontainer = document.querySelectorAll("main");
     enlargeEle.classList.remove("hidden");
