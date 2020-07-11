@@ -61,3 +61,19 @@
 .noOf{
     overflow:hidden;
 }
+.largephfadeIn{
+    animation: largephfadeIn .5s ease-in;
+    animation-fill-mode: forwards;
+  }
+@keyframes largephfadeIn {
+    from { display: none; opacity:0; }
+    to { display: block; opacity:1; }
+}
+.largephfadeOut{
+    animation: largephfadeIn .5s ease-in;
+    animation-fill-mode: forwards;
+}
+@keyframes largephfadeIn {
+    from { display: block; opacity:1; }
+    to { display: none; opacity:0; }
+}
