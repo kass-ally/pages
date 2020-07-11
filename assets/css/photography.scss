@@ -19,4 +19,12 @@
     padding-bottom: 100%;
     display: inline-block;
     vertical-align: top;
+}
+.photoShow{
+    animation: photoShow .8s ease-in;
+    animation-fill-mode: forwards; 
   }
+@keyframes photoShow {
+    from {transform: scale(.8); opacity:0;}
+    to {transform: scale(1); opacity:1;}
+}
