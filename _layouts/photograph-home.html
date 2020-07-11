@@ -9,7 +9,7 @@
   <body>
     {% include header.html %} 
    
-    <div id="pageTitle" class="page-title" style="text-transform: uppercase;">{{page.title}}</div>
+    <div id="pageTitle" class="page-title" style="text-transform: uppercase;">e{{page.title}}</div>
     <main class="photograph-container">
         <div class="row">
           <div class="photo-container">
@@ -17,9 +17,9 @@
               <div class="hidden photograph" style="background-image:url(assets/images/{{ photo.image }});">
                 <div class="layer"></div>
               </div>
-              <div class="larged-photo">
-                <div class="enlarged" style="background-image:url(assets/images/{{ photo.image }});"></div>
-                <div class="photo-desc">
+              <div class="enlarged-container">
+                <div class="enlarged-photo" style="background-image:url(assets/images/{{ photo.image }});"></div>
+                <div class="enlarged-desc">
                   <p>On a mountain, over the sea.</p>
                   <p>Label: Landscape</p>
                   <p>Taken with iPhone, on 20 Jul 2020</p>

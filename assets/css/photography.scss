@@ -41,7 +41,7 @@
     to {transform: scale(1); opacity:1;}
 }
 // Enlarge photo
-.large-photo{
+.enlarged-container{
     height:100vh;
     width:100vw;
     position: fixed;
@@ -58,8 +58,11 @@
     from { opacity:0  }
     to { opacity:1  }
 }
-.enlarged{
+.enlarged-photo{
     position: absolute;
     width:100%;
     z-index:9;
+}
+.enlarged-desc{
+    
 }
