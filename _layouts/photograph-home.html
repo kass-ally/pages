@@ -12,7 +12,7 @@
     <div id="pageTitle" class="page-title" style="text-transform: uppercase;">{{page.title}}</div>
     <main class="photo-container">
         {% for photo in site.photographs %}
-          <div onclick="enlargePhoto(event)" class="hidden photograph" style="background-image:url(assets/images/{{ photo.image }});">
+          <div class="hidden photograph" style="background-image:url(assets/images/{{ photo.image }});">
             <div class="layer"></div>
           </div>
         {% endfor %}
