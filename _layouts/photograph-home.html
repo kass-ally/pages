@@ -11,32 +11,30 @@
    
     <div id="pageTitle" class="page-title" style="text-transform: uppercase;">rr{{page.title}}</div>
     <main class="photograph-container">
-        <div class="row">
+          {% for photo in site.photographs %}
           <div class="photo-container">
-            {% for photo in site.photographs %}
               <div onclick="enlargePhoto(event)" class="hidden photograph" style="background-image:url(assets/images/{{ photo.image }});">
                 <div class="layer"></div>
               </div>
 
-              <div id="enlarge" class="enlarge hidden" style="text-align:center">
-                <div class="slideshow-container">
-                    <div class="mySlides fade">
-                        <img src="images/blog1.jpg" style="width:80%">
-                        <div class="des" style="position:absolute">
-                            <p>On a mountain, over the sea.</p>
-                            <p>Label: Landscape</p>
-                            <p>Taken with iPhone, on 20 Jul 2020</p>
-                            <p>Taken when I was solo camping/hiking in the Lake district.aken when I was solo camping/hiking in the Lake district.aken when I was solo camping/hiking in the Lake district.aken when I was solo camping/hiking in the Lake district.aken when I was solo camping/hiking in the Lake district.aken when I was solo camping/hiking in the Lake district.aken when I was solo camping/hiking in the Lake district.</p>
-                        </div>
-                    </div>
-                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                </div>
-              </div>
 
-            {% endfor %}
           </div>
-        </div>
+          <div id="enlarge" class="enlarge hidden" style="text-align:center">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="url(assets/images/{{ photo.image }})" style="width:80%">
+                    <div class="des" style="position:absolute">
+                        <p>On a mountain, over the sea.</p>
+                        <p>Label: Landscape</p>
+                        <p>Taken with iPhone, on 20 Jul 2020</p>
+                        <p>Taken when I was solo camping/hiking in the Lake district.aken when I was solo camping/hiking in the Lake district.aken when I was solo camping/hiking in the Lake district.aken when I was solo camping/hiking in the Lake district.aken when I was solo camping/hiking in the Lake district.aken when I was solo camping/hiking in the Lake district.aken when I was solo camping/hiking in the Lake district.</p>
+                    </div>
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+          </div>
+          {% endfor %}
       </main>
 
   </body>
