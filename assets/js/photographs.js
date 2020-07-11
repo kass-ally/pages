@@ -9,7 +9,9 @@ window.addEventListener("load", function(){
 
 function enlargePhoto(event){
     var enlargeEle = document.getElementById("enlarge");
+    var photocontainer = document.getAttribute("main");
     enlargeEle.classList.remove("hidden");
+    photocontainer[0].classList.toggle("photo-container");
 }
 
 var slideIndex = 1;

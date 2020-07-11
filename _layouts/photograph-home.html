@@ -10,8 +10,7 @@
     {% include header.html %} 
    
     <div id="pageTitle" class="page-title" style="text-transform: uppercase;">{{page.title}}</div>
-    <main class="photograph-container">
-      <div class="photo-container">
+    <main class="photo-container">
         {% for photo in site.photographs %}
           <div onclick="enlargePhoto(event)" class="hidden photograph" style="background-image:url(assets/images/{{ photo.image }});">
             <div class="layer"></div>
@@ -19,7 +18,7 @@
           <div id="enlarge" class="enlarge hidden" style="text-align:center; content:normal;">
             <div class="slideshow-container">
                 <div class="mySlides fade">
-                    <img src="url(assets/images/{{ photo.image }})" style="width:80%">
+                    <img src="assets/images/{{ photo.image }}" style="width:80%">
                     <div class="des" style="position:absolute">
                         <p>On a mountain, over the sea.</p>
                         <p>Label: Landscape</p>
@@ -32,7 +31,6 @@
             </div>
           </div>
         {% endfor %}
-      </div>
     </main>
 
   </body>
