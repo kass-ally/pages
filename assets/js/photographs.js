@@ -14,10 +14,17 @@ window.addEventListener("click", function(event){
         var enlargeCont = document.getElementById("enlarge");
         var enlargedPhoto = document.getElementById("enlargedPhoto");
         var img = document.createElement("img");
-        body.classList.toggle("noOf");
         img.src = imgurl;
+        body.classList.add("noOf");
         enlargedPhoto.appendChild(img);
         enlargedPhoto.childNodes[0].classList.add("enlargedImg")
-        enlargeCont.classList.toggle("hidden");
+        enlargeCont.classList.remove("hidden");
+        if(!enlargeCont.classList.contains("hidden")){
+            if (!event.target.closest('.enlargedImg')){
+                enlargeCont.classList.add("hidden");
+                enlargedPhoto.appendChild(img);
+                body.classList.remove("noOf");
+            } 
+        }
     }
 })
