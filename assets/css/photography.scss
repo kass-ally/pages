@@ -49,6 +49,7 @@
     top:0;
     overflow:scroll;
     background-color: rgba(255, 255, 255, 0.801);
+    left:0;
 }
 .largeOp{
     animation: largeOp .5s ease-in;
@@ -64,5 +65,21 @@
     z-index:9;
 }
 .enlarged-desc{
-    
+
 }
+.enlarged-outer {
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  .enlarged-middle {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .enlarged-inner {
+    margin-left: auto;
+    margin-right: auto;
+  }
