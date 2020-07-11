@@ -14,10 +14,10 @@
         <div class="row">
           <div class="photo-container">
             {% for photo in site.photographs %}
-              <div class="hidden photograph" style="background-image:url(assets/images/{{ photo.image }});">
+              <div onclick="enlargePhoto(event)" class="hidden photograph" style="background-image:url(assets/images/{{ photo.image }});">
                 <div class="layer"></div>
               </div>
-              <div class="enlarged-container">
+              <!-- <div class="enlarged-container">
                 <div class="enlarged-outer"><div class="enlarged-middle"><div class="enlarged-inner">
                   <div class="enlarged-photo" style="background-image:url(assets/images/{{ photo.image }});"></div>
                   <div class="enlarged-desc">
@@ -27,7 +27,9 @@
                     <p>Taken when I was solo camping/hiking in the Lake district.</p>
                   </div>
                 </div></div></div>
-              </div>
+              </div> -->
+              <div class="enlarged-photo" style="background-image:url(assets/images/{{ photo.image }});"></div>
+
             {% endfor %}
           </div>
         </div>

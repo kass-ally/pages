@@ -6,3 +6,8 @@ window.addEventListener("load", function(){
         photos[i].classList.remove("hidden");
     }
 })
+
+function enlargePhoto(event){
+    console.log("f")
+    console.log(event)
+}
