@@ -28,7 +28,7 @@
     position:absolute;
   }
 .photograph:hover > .layer{
-    background-color: rgba(0, 0, 0, 0.404);
+    background-color: rgba(0, 0, 0, 0.24);
     transition:  background-color .4s;
     cursor: zoom-in;
 }
@@ -41,44 +41,62 @@
     to {transform: scale(1); opacity:1;}
 }
 // Enlarge photo
-.enlarged-container{
+.enlarge{
     height:100vh;
     width:100vw;
     position: fixed;
     z-index:1;
     top:0;
     overflow:scroll;
-    left:0;
-}
-.largeOp{
-    animation: largeOp .5s ease-in;
-    animation-fill-mode: forwards;
-    }
-@keyframes largeOp {
-    from { opacity:0  }
-    to { opacity:1  }
-}
-.enlarged-photo{
+  }
+  .mySlides {display: none}
+  
+  /* Slideshow container */
+  .slideshow-container {
+      max-width: 1000px;
+      text-align: center;
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+      margin-top:100px;
+  }
+  .prev, .next {
+    cursor: pointer;
     position: absolute;
-    width:100%;
-    z-index:9;
-}
-.enlarged-desc{
-
-}
-.enlarged-outer {
-    display: table;
+    top: 50%;
+    color: rgb(109, 109, 109);
+    font-size: 18px;
+    transition: 0.6s ease;
+    user-select: none;
+    left:3%;
+  }
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    left:96%;
+  }
+  .prev:hover, .next:hover {
+      color: rgb(29, 29, 29);
+  }
+  .text {
+    color: #000000;
+    font-size: 15px;
+    padding: 8px 12px;
     position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
     width: 100%;
+    text-align: center;
   }
-  .enlarged-middle {
-    display: table-cell;
-    vertical-align: middle;
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
   }
-  .enlarged-inner {
-    margin-left: auto;
-    margin-right: auto;
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
   }
