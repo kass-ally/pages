@@ -25,7 +25,7 @@ window.addEventListener("click", function(event){
             if(!enlargeCont.classList.contains("hidden")){
                 if (!event.target.closest('.enlargedImg')){
                     enlargeCont.classList.add("hidden");
-                    enlargedPhoto.removeChild(img);
+                    enlargedPhoto.removeChild(enlargedPhoto.lastElementChild);
                     body.classList.remove("noOf");
                     enlargeCont.classList.remove("largephfadeIn");
                     enlargeCont.classList.add("largephfadeOut");
