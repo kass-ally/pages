@@ -49,3 +49,34 @@ p {
 .joun-ov-date{
   font-size:15px;
 }
+
+.photo-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  padding:50px;
+  position:relative;
+  top:200px;
+}
+.photo-container div {
+  background-size: cover;
+  background-position: center ;
+}
+.photo-container div::before {
+  content: "";
+  padding-bottom: 100%;
+  display: inline-block;
+  vertical-align: top;
+}
+.layer{
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position:absolute;
+}
+.photograph:hover > .layer{
+  background-color: rgba(0, 0, 0, 0.13);
+  transition:  background-color .4s;
+  cursor: zoom-in;
+}
