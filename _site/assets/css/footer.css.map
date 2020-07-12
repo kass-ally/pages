@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "footer.css",
+	"sources": [
+		"footer.scss",
+		"_sass/main.scss"
+	],
+	"sourcesContent": [
+		"@import \"main\";\n*{\n    box-sizing: border-box;\n}\np {\n    font-family: 'Roboto', sans-serif;\n    font-weight:300;\n}\nfooter {\n    clear: both;\n    position: absolute;\n    bottom:-50%;\n    left: 0;\n    width: 100%;\n  }\n.left{\n    text-align:left;\n    float:left;\n}\n.right{\n    float:right;\n    text-align:right;\n}\n.centered{\n    text-align:center;\n}\n",
+		"@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Suranna&display=swap');\n@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');\n@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap');\n@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Montserrat:wght@100;200;300;400&display=swap');\n@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');\n\n.page-title{\n    width:100%;\n    top:160px;\n    font-family: 'Playfair Display', sans-serif;\n    color: #4d4d4d;\n    font-style: italic;\n    position:absolute;\n    text-align:center;\n    font-size:33px;\n    left:0;\n    letter-spacing:2px;\n  }\n  a{\n    text-decoration: none;\n  }\n  a:hover{\n    color:rgb(88, 88, 88);\n  }\n.hidden{\n  display:none;\n}"
+	],
+	"names": [],
+	"mappings": "ACAA,OAAO,CAAC,+FAAI;AACZ,OAAO,CAAC,oFAAI;AACZ,OAAO,CAAC,4FAAI;AACZ,OAAO,CAAC,6HAAI;AACZ,OAAO,CAAC,+JAAI;AAEZ,AAAA,WAAW,CAAA,EACP,KAAK,EAAC,IAAI,EACV,GAAG,EAAC,KAAK,EACT,WAAW,EAAE,8BAA8B,EAC3C,KAAK,EAAE,OAAO,EACd,UAAU,EAAE,MAAM,EAClB,QAAQ,EAAC,QAAQ,EACjB,UAAU,EAAC,MAAM,EACjB,SAAS,EAAC,IAAI,EACd,IAAI,EAAC,CAAC,EACN,cAAc,EAAC,GAAG,GACnB;;AACD,AAAA,CAAC,CAAA,EACC,eAAe,EAAE,IAAI,GACtB;;AACD,AAAA,CAAC,CAAC,KAAK,CAAA,EACL,KAAK,EAAC,OAAe,GACtB;;AACH,AAAA,OAAO,CAAA,EACL,OAAO,EAAC,IAAI,GACb;;ADzBD,AAAA,CAAC,CAAA,EACG,UAAU,EAAE,UAAU,GACzB;;AACD,AAAA,CAAC,CAAC,EACE,WAAW,EAAE,oBAAoB,EACjC,WAAW,EAAC,GAAG,GAClB;;AACD,AAAA,MAAM,CAAC,EACH,KAAK,EAAE,IAAI,EACX,QAAQ,EAAE,QAAQ,EAClB,MAAM,EAAC,IAAI,EACX,IAAI,EAAE,CAAC,EACP,KAAK,EAAE,IAAI,GACZ;;AACH,AAAA,KAAK,CAAA,EACD,UAAU,EAAC,IAAI,EACf,KAAK,EAAC,IAAI,GACb;;AACD,AAAA,MAAM,CAAA,EACF,KAAK,EAAC,KAAK,EACX,UAAU,EAAC,KAAK,GACnB;;AACD,AAAA,SAAS,CAAA,EACL,UAAU,EAAC,MAAM,GACpB"
+}

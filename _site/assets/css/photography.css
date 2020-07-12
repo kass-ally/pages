@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Suranna&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Montserrat:wght@100;200;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.page-title { width: 100%; top: 160px; font-family: 'Playfair Display', sans-serif; color: #4d4d4d; font-style: italic; position: absolute; text-align: center; font-size: 33px; left: 0; letter-spacing: 2px; }
+
+a { text-decoration: none; }
+
+a:hover { color: #585858; }
+
+.hidden { display: none; }
+
+.photo-container { display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 20px; padding: 50px; position: relative; top: 200px; }
+
+.photo-container div { background-size: cover; background-position: center; }
+
+.photo-container div::before { content: ""; padding-bottom: 100%; display: inline-block; vertical-align: top; }
+
+.layer { top: 0; left: 0; width: 100%; height: 100%; position: absolute; }
+
+.photograph:hover > .layer { background-color: rgba(0, 0, 0, 0.13); transition: background-color .4s; cursor: zoom-in; }
+
+.photoShow { animation: photoShow .8s ease-in; animation-fill-mode: forwards; }
+
+@keyframes photoShow { from { transform: scale(0.8);
+    opacity: 0; }
+  to { transform: scale(1);
+    opacity: 1; } }
+
+.enlarge { text-align: center; position: fixed; top: 0; z-index: 9; background-color: #ffffffc4; height: 100%; overflow: scroll; }
+
+.enlargedImg { width: 70%; margin-top: 5vh; }
+
+.enlargedDes { margin: 100px; margin-top: 0; }
+
+.noOf { overflow: hidden; }
+
+.largephfadeIn { animation: largephfadeIn .5s ease-in; animation-fill-mode: forwards; }
+
+@keyframes largephfadeIn { from { display: none;
+    opacity: 1; }
+  to { display: block;
+    opacity: 0; } }
+
+.largephfadeOut { animation: largephfadeIn .5s ease-in; animation-fill-mode: forwards; }
+
+@keyframes largephfadeIn { from { display: block;
+    opacity: 0; }
+  to { display: none;
+    opacity: 1; } }
+
+/*# sourceMappingURL=photography.css.map */
