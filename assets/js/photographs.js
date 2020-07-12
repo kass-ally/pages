@@ -29,7 +29,6 @@ window.addEventListener("click", function(event){
                     body.classList.remove("noOf");
                     enlargeCont.classList.remove("largephfadeIn");
                     enlargeCont.classList.add("largephfadeOut");
-                    console.log("remove");
                 } 
             }
         }

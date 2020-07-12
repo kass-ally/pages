@@ -11,7 +11,7 @@
     {% include header.html %} 
 
     <div id="pageTitle" class="page-title" style="text-transform: uppercase;">{{page.title}}</div>
-    <main class="joun-home-container">
+    <!-- <main class="joun-home-container">
       {% for post in site.posts %}
       <div class="joun-content">
         <div class="row">
@@ -28,7 +28,22 @@
           </div>
       </div>
       {% endfor %}
-    </main>
+    </main> -->
+
+    <main class="photo-container">
+      {% for photo in site.posts %}
+      <a href= "{{site.baseurl}}/{{post.permalink}}">
+        <div class="hidden photograph" style="background-image:url(assets/images/{{posts.image}});">
+          <div class="layer"></div>
+        </div>
+      </a>
+      <div class="journ-des">
+        <a href= "{{site.baseurl}}/{{post.permalink}}" class="joun-ov-title"> {{post.title}}</a>
+        <p class="joun-ov-date"> {{post.datec}} </p>
+        <p> {{post.summary}}</p>
+      </div>
+      {% endfor %}
+  </main>
     
   </body>
   <!-- {% include footer.html %}  -->
