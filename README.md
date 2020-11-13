@@ -35,3 +35,15 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+
+Running the file:
+php -S localhost:8888
+
+cd to file directory: Desktop/pages
+Type jekyll serve
+Go to localhost:4000
+http://localhost:4000
+http://localhost:4000/photographs
+
+reference: https://jekyllrb.com/docs/step-by-step/01-setup/
