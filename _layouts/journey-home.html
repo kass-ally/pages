@@ -31,20 +31,19 @@
     </main> -->
 
     <main class="photo-container">
-      {% for photo in site.posts %}
-      <a href= "{{site.baseurl}}/{{post.permalink}}">
-        <div class="hidden photograph" style="background-image:url(assets/images/{{posts.image}});">
-          <div class="layer"></div>
-        </div>
-      </a>
-      <div class="journ-des">
-        <a href= "{{site.baseurl}}/{{post.permalink}}" class="joun-ov-title"> {{post.title}}</a>
-        <p class="joun-ov-date"> {{post.datec}} </p>
-        <p> {{post.summary}}</p>
-      </div>
+      {% for post in site.posts %}
+      <!-- <div class="journ-des"> -->
+        <a href= "{{site.baseurl}}/{{post.permalink}}">
+          <div class=" photograph" style="background-image:url(assets/images/{{post.image}});">
+            <div class="layer"></div>
+            <a href= "{{site.baseurl}}/{{post.permalink}}" class="joun-ov-title"> {{post.title}}</a>
+          </div>
+        </a>
+        <!-- <p class="joun-ov-date"> {{post.datec}} </p> -->
+        <!-- <p> {{post.summary}}</p> -->
+      <!-- </div> -->
       {% endfor %}
   </main>
     
   </body>
-  <!-- {% include footer.html %}  -->
 </html>
