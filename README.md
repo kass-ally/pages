@@ -38,14 +38,12 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 
 
 ### Running the file in localhost
-php -S localhost:8888
 
 cd to file directory: Desktop/pages
 
 Type jekyll serve
 
 Go to localhost:4000
-
 http://localhost:4000 / 
 http://localhost:4000/photographs
 
